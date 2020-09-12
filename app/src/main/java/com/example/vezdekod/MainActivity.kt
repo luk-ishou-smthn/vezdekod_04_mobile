@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button_send.setOnClickListener{
-            val intent = Intent(this, SecondStep::class.java)
+            val intent = Intent(this, SnippetLayout::class.java)
             startActivity(intent)
         }
 

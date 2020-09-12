@@ -4,5 +4,10 @@
     <string name="text">
     У Вас пока нет сборов.\nНачните доброе дело.
     </string>
+    <string name="title"> На курсы по андроид разработке! (хелп!) </string>
 
+    <!-- strings.xml -->
+
+
+    <string name="caption"> Собрано 8362₽ из 11294₽ </string>
 </resources>

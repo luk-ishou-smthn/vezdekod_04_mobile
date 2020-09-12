@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/newsfeed_ca"
+        android:layout_width="375dp"
+        android:layout_height="410dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="181dp"
+        android:background="@drawable/newsfeed_ca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <RelativeLayout
+            android:id="@+id/snippet"
+            android:layout_width="359dp"
+            android:layout_height="246dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/snippet"
+            android:elevation="4dp" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/snippet"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/makemeanandroidboy" />
+
+            <!-- Rectangle 5 -->
+            <View
+                android:id="@+id/rectangle_5"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="197dp"
+                android:layout_marginRight="100dp"
+                android:alpha="0.3"
+                android:background="@drawable/rectangle_5" />
+
+
+            <!-- Rectangle 6 -->
+            <View
+                android:id="@+id/rectangle_6"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="197dp"
+                android:layout_marginRight="160dp"
+                android:background="@drawable/rectangle_6" />
+
+            <!-- ↳ Title -->
+
+            <!-- ↳ Caption -->
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="141dp"
+                android:layout_marginRight="0dp"
+                android:gravity="top"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/title"
+                android:textAppearance="@style/title"
+                android:translationY="-1.05sp" />
+
+            <TextView
+                android:id="@+id/caption"
+                android:layout_width="0dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="168dp"
+                android:layout_marginRight="0dp"
+                android:gravity="top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/caption"
+                android:textAppearance="@style/caption"
+                android:translationY="-0.24sp" />
+
+            <Button
+                android:id="@+id/button_send"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="177dp"
+                android:layout_marginRight="3dp"
+                android:width="54dp"
+                android:height="18dp"
+                android:background="@drawable/button_background"
+                android:text="Пожертвовать"
+                android:textAppearance="@style/button_snip"
+                android:textColor="@android:color/white" />
+
+            <!-- ↳ Text -->
+            <TextView
+                android:id="@+id/text"
+                android:layout_marginTop="210dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="0sp"
+                android:text="Твоя карма 0, пожертвуй и повысь"
+                android:textAppearance="@style/text_lbl"
+                android:translationY="-0.24sp" />
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
